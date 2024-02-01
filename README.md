@@ -8,12 +8,12 @@ fr.exe [path] selector find replace [-h] [--no-colors]
 ```
 
 
-`path` - path to folder, where the files are located
-`selector` - regex for selecting specific files (<find> also partially does this)
-`find` - regex for text to replace it is, by default global(/.../g)
-`replace` - regex to replace the text with
-`-y` - y[es], automatically confirms replacement
-`--no-colors` - disables ansi codes`
+`path` - path to folder, where the files are located  
+`selector` - regex for selecting specific files (<find> also partially does this)  
+`find` - regex for text to replace it is, by default global(/.../g)  
+`replace` - regex to replace the text with  
+`-y` - y[es], automatically confirms replacement  
+`--no-colors` - disables ansi codes`  
 
 
 *I actually remembered to publish something to Github again, huh...*
