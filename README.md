@@ -1,7 +1,7 @@
 # files-rename
 
-A long long time ago I asked myself: what the f*ck is this:   
-> `Get-ChildItem *.txt| Rename-Item -NewName { $_.Name -replace '\.txt','.log' }`?
+A long long time ago I asked myself: 
+> what the f*ck is this? Get-ChildItem *.txt| Rename-Item -NewName { $_.Name -replace '\.txt','.log' }
 
 Now I wrote my own bulk\* file rename cli, because I didn't easily find a replacement.
 
