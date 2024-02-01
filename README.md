@@ -1,9 +1,12 @@
 # files-rename
 
 A long long time ago I asked myself: 
-> what the f*ck is this? Get-ChildItem *.txt| Rename-Item -NewName { $_.Name -replace '\.txt','.log' }
+> what the f*ck is this?
+```powershell
+Get-ChildItem *.txt| Rename-Item -NewName { $_.Name -replace '\.txt','.log' }
+```
 
-Now I wrote my own bulk\* file rename cli, because I didn't easily find a replacement.
+So... Now, after my File Renamer crashed one too many times, I wrote my own bulk\* file renamer cli.
 
 ```
 fr.exe [path] selector find replace [-h] [--no-colors]
