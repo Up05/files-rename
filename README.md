@@ -3,7 +3,7 @@
 A long long time ago I asked myself: 
 > what the f*ck is this?
 ```powershell
-Get-ChildItem *.txt| Rename-Item -NewName { $_.Name -replace '\.txt','.log' }
+Get-ChildItem *.txt | Rename-Item -NewName { $_.Name -replace '\.txt','.log' }
 ```
 
 So... Now, after my File Renamer crashed one too many times, I wrote my own bulk\* file renamer cli.
